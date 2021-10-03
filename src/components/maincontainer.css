@@ -139,7 +139,7 @@
 @media (max-width:550px) {
     .Main{
         margin: 0 auto;
-        width: 100%;
+        width: 90%;
     }
     .IncomeExpenseOne {
         font-size: 14px !important;
