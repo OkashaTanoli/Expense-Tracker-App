@@ -20,12 +20,12 @@
     align-content: center;
     /* background-color: rgb(109, 110, 112); */
 }
-.IncomeExpenseOne h4{
+.incomeHead{
     line-height: 3px;
     color:#02d12f;
     text-align: center;
 }
-.IncomeExpenseThree h4{
+.expenseHead{
     line-height: 3px;
     color: red;
     text-align: center;
@@ -135,4 +135,16 @@
     color: rgb(255, 253, 248);
     background-color: rgb(0, 65, 82);
     cursor: pointer;
+}
+@media (max-width:550px) {
+    .Main{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .IncomeExpenseOne {
+        font-size: 14px !important;
+    }
+    .IncomeExpenseThree{
+        font-size: 14px !important;
+    }
 }

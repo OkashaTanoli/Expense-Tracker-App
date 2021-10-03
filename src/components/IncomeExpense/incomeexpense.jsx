@@ -31,15 +31,15 @@ function IncomeExpense() {
         <div className='IncomeExpense'>
             <div className='IncomeExpenseOne'>
                 <div style={{overflow:'auto'}}>
-                    <h4>INCOME</h4>
-                    <h2 style={{ lineHeight: '10px', textAlign: 'center' }}>${Income()}</h2>
+                    <h4 className='incomeHead'>INCOME</h4>
+                    <h2  style={{ lineHeight: '10px', textAlign: 'center' }}>${Income()}</h2>
                 </div>
             </div>
             <div className='IncomeExpenseTwo'></div>
             <div className='IncomeExpenseThree'>
                 <div  style={{overflow:'auto'}}>
-                    <h4>EXPENSE</h4>
-                    <h2 style={{ lineHeight: '10px', textAlign: 'center' }}>${Expense()}</h2>
+                    <h4 className='expenseHead'>EXPENSE</h4>
+                    <h2  style={{ lineHeight: '10px', textAlign: 'center' }}>${Expense()}</h2>
                 </div>
             </div>
         </div>
