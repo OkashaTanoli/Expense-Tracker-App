@@ -23,7 +23,7 @@ function TotalAmount() {
     }
     return (
         <div className='totalAmount'>
-            <h1>Expense Tracker</h1>
+            <h1>Expense Tracker App</h1>
             <h5>YOUR BALANCE</h5>
             <h1 style={{ marginTop: '-20px' }}>${Total()}</h1>
         </div>
