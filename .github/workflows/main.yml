@@ -26,11 +26,11 @@ jobs:
       - name: Setting Nodejs
         uses: actions/setup-node@v2-beta
         with:
-           node-version: 12
+           node-version: 16
 
       # Runs a set of commands using the runners shell
       - name: Github actions for yarn
-        uses: borales/actions-yarn@v2.0.0
+        uses: borales/actions-yarn@v2.3.0
         with:
            cmd: install
       
