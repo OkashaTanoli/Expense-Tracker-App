@@ -12,7 +12,7 @@ function NewTransaction() {
         var a = 0
         var b;
         for(var i = amount.toString().slice(0,1)=== '-'?1:0;i<amount.toString().length;i++){
-            if(amount.toString()[i] == 0){
+            if(amount.toString()[i] === 0){
                 a = a+1
             }
         }

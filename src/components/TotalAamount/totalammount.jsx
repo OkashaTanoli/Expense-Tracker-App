@@ -14,9 +14,9 @@ function TotalAmount() {
             }
         }
         var b = 0
-        for (var i = 0; i < context.length; i++) {
-            if (context[i].amount < 0) {
-                a = a + Number(context[i].amount)
+        for (var j = 0; j < context.length; j++) {
+            if (context[j].amount < 0) {
+                a = a + Number(context[j].amount)
             }
         }
         return a-b
